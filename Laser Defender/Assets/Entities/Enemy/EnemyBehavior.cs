@@ -9,6 +9,8 @@ public class EnemyBehavior : MonoBehaviour {
     public GameObject projectile;
     public float projectileSpeed = 15f;
     public float shotsPerSecond = .5f;
+    public AudioClip laserSound;
+    public AudioClip deathSound;
 
     float altFire = 1;
     private ScoreKeeper scoreKeeper;
@@ -27,6 +29,7 @@ public class EnemyBehavior : MonoBehaviour {
     void Fire() {
         altFire *= -1;
         Vector3 beamPos = new Vector3(transform.position.x + (altFire * .22f), (transform.position.y - .7f), 0);
+        AudioSource.PlayClipAtPoint(laserSound, transform.position);
         GameObject beam = Instantiate(projectile, beamPos, Quaternion.identity) as GameObject;
         beam.GetComponent<Rigidbody2D>().velocity = new Vector3(0, -projectileSpeed, 0);
     }
@@ -38,9 +41,14 @@ public class EnemyBehavior : MonoBehaviour {
             health -= missile.GetDamage();
             missile.Hit();
             if(health <= 0) {
-                Destroy(gameObject);
-                scoreKeeper.Score(pointsValue);
+                Die();
             }
         }
+    }
+
+    void Die() {
+        AudioSource.PlayClipAtPoint(deathSound, transform.position);
+        scoreKeeper.Score(pointsValue);
+        Destroy(gameObject);  
     }
 }
