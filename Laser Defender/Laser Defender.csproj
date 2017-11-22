@@ -78,6 +78,7 @@
     <Compile Include="Assets\Entities\Enemy\EnemyBehavior.cs" />
     <Compile Include="Assets\Entities\EnemyFormation\FormationController.cs" />
     <Compile Include="Assets\Entities\EnemyFormation\Position.cs" />
+    <Compile Include="Assets\Entities\Player\AsteroidsPlayerController.cs" />
     <Compile Include="Assets\Entities\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\MusicPlayer.cs" />

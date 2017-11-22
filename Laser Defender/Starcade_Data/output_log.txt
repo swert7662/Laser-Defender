@@ -17,23 +17,51 @@ Platform assembly: D:\Swert\Unity Projects\Learn to Code by Making Games\Laser D
 Loading D:\Swert\Unity Projects\Learn to Code by Making Games\Laser Defender\Laser-Defender\Laser Defender\Starcade_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\Swert\Unity Projects\Learn to Code by Making Games\Laser Defender\Laser-Defender\Laser Defender\Starcade_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\Swert\Unity Projects\Learn to Code by Making Games\Laser Defender\Laser-Defender\Laser Defender\Starcade_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.017 seconds
+- Completed reload, in  0.106 seconds
 Platform assembly: D:\Swert\Unity Projects\Learn to Code by Making Games\Laser Defender\Laser-Defender\Laser Defender\Starcade_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Swert\Unity Projects\Learn to Code by Making Games\Laser Defender\Laser-Defender\Laser Defender\Starcade_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.909736 ms
+UnloadTime: 0.831416 ms
 Level load requested for: Game
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.024736 ms
+UnloadTime: 3.981739 ms
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 433.
-Total: 0.420237 ms (FindLiveObjects: 0.019579 ms CreateObjectMapping: 0.014027 ms MarkObjects: 0.373479 ms  DeleteObjects: 0.013150 ms)
+Total: 0.315616 ms (FindLiveObjects: 0.025132 ms CreateObjectMapping: 0.012273 ms MarkObjects: 0.266813 ms  DeleteObjects: 0.011105 ms)
+
+Empty Formation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Empty Formation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Empty Formation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Empty Formation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Empty Formation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Empty Formation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Empty Formation
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 End method
  
@@ -44,20 +72,20 @@ Level load requested for: End
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.597334 ms
+UnloadTime: 0.487452 ms
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 280.
-Total: 0.319708 ms (FindLiveObjects: 0.012566 ms CreateObjectMapping: 0.016365 ms MarkObjects: 0.149333 ms  DeleteObjects: 0.141443 ms)
+Total: 0.205150 ms (FindLiveObjects: 0.008182 ms CreateObjectMapping: 0.010228 ms MarkObjects: 0.101406 ms  DeleteObjects: 0.085333 ms)
 
 Level load requested for: Start
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.609608 ms
+UnloadTime: 19.923895 ms
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 320.
-Total: 0.156054 ms (FindLiveObjects: 0.010520 ms CreateObjectMapping: 0.010812 ms MarkObjects: 0.132383 ms  DeleteObjects: 0.002337 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 317.
+Total: 0.761279 ms (FindLiveObjects: 0.013150 ms CreateObjectMapping: 0.039452 ms MarkObjects: 0.704877 ms  DeleteObjects: 0.003506 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2a8c -> priority: 1 
+  Thread -> id: 5afc -> priority: 1 
